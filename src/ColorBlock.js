@@ -27,7 +27,7 @@ class ColorBlock extends React.Component {
     render() {
         return(
             <div
-                onMouseEnter={this.clickaroo}
+                onMouseclick={this.clickaroo}
                 style={{backgroundColor: this.state.bgColor}}
                 className="block"
             />
